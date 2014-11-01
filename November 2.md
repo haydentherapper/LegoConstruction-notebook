@@ -12,14 +12,14 @@ I chose the first option, as I wanted a tool to assist in building custom Lego c
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
-What needs to be in the IR in order to fully represent my language? If I want to translate the IR to serialized JSON, what choices must be made to simplify this? Also, how should I represent variables, which is just a subset of instructions? 
+What needs to be in the IR in order to fully represent my language? If I want to translate the IR to serialized JSON, what choices must be made to simplify this? Also, how should I represent variables, which is just a subset of instructions? What errors may arise when using variables?
 
 To answer the last, I suspect I will use dynamic scoping to evaluate instructions in the environment that they're called from. However, maybe I should have static scoping, or possibly I won't need to worry about scope and each instruction will be relatively separate from one another.
 
 **What questions do you have for your critique partners? How can they best help
 you?**
 
-Are there any features you would like to see implemented that would simplify creating Lego constructions? How can I simplify the language to minimize verbosity? 
+Are there any features you would like to see implemented that would simplify creating Lego constructions? How can I simplify the language to minimize verbosity? What possible errors could occur with using variables besides having ones that aren't defined?
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
