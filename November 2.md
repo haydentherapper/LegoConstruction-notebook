@@ -14,7 +14,7 @@ are you evaluating your design and implementation?**
 
 What needs to be in the IR in order to fully represent my language? If I want to translate the IR to serialized JSON, what choices must be made to simplify this? Also, how should I represent variables, which is just a subset of instructions? What errors may arise when using variables?
 
-To answer the last, I suspect I will use dynamic scoping to evaluate instructions in the environment that they're called from. However, maybe I should have static scoping, or possibly I won't need to worry about scope and each instruction will be relatively separate from one another.
+To answer the second to last, I suspect I will use dynamic scoping to evaluate instructions in the environment that they're called from. However, maybe I should have static scoping, or possibly I won't need to worry about scope and each instruction will be relatively separate from one another.
 
 **What questions do you have for your critique partners? How can they best help
 you?**
