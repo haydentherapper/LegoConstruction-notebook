@@ -24,7 +24,7 @@ Are there any features you would like to see implemented that would simplify cre
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
 
-I had about 1.5 hours of discussions to develop my ideas for this project. I have worked for 3 hours on initial documentation for the project.
+I had about 1.5 hours of discussions to develop my ideas for this project. I have worked for 2 hours on description documentation for the project, and 1.5 hours for planning.
 
 ## Post-critique summary
 
