@@ -2,12 +2,13 @@
 
 ## Description
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+This week was spent designing the IR and syntax, researching tools, and beginning work on the parser. The first big decision I made was to simplify the grammar in two ways. 
+* First, I am removing the idea of environments and scoping for now. I don't see a reason to include this, as most non-programmers will not care about having variables inside other variable environments. This simplifies the grammar, as a variable is only a list of instructions, and not a list of variables and a list of instructions.
+* Second, I have decided to use curly braces for variable instructions, instead of using tabs. I did a lot of research on the ["Off-side rule"](http://en.wikipedia.org/wiki/Off-side_rule), and found that I would probably have to write my own lexer/parser to handle INDENT/DEDENT. Curlies are much easier to handle in Scala's parser-combinator libraries, so for now, I will use braces instead of tabs.
+
+Future ideas:
+* Pass a mapping of currentColor -> newColor for a variable to change variable colors dynamically. This will help with not having to redefine variables of the same instruction set but using different colors.
+* Write own lexer/parser for tabs
 
 ## Questions
 
