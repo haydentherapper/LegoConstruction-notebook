@@ -18,6 +18,7 @@ Future ideas for the program:
 **What is the most pressing issue for your project? What design decision do
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
+
 As said above, do I need to specify Part and Color, or can I just use a Piece that takes these strings? Should I try to write a parser for tabs, or functionally is there any difference in using:
 ```
 VarName {
@@ -37,10 +38,12 @@ My main question involves the target audience. Is this simple enough for anyone 
 
 **What questions do you have for your critique partners? How can they best help
 you?**
+
 Do you think you could use this tool if you hadn't had any coding experience? Where are places you see that could be simplified? Expanded upon for clarity?
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
+
 I spent 30 minutes working on initial set up and discussion of indent parsing. I spent about 3 hours researching parsers in Scala and the off-side-rule on Friday. I spent about 3 hours working on starting implementation and more research on Sunday.
 
 ## Post-critique summary
